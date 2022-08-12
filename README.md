@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="assets/logo.jpg" alt=" AUTO POWER FILTER BOT">
+  <img src="assets/logo.jpg" alt=" 📥📥AUTO POWER FILTER BOT 📥📥">
 </p>
 <h1 align="center">
-  <b> AUTO POWER FILTER BOT</b>
+  <b> 📥📥AUTO POWER FILTER BOT 📥📥</b>
 </h1>
 
 
@@ -47,7 +47,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/zmraj/POWER-Filter-BOT.git">
+<a href="https://heroku.com/deploy?template=https://github.com/VashuRaj/AUTO-FILTER-BOTz.git">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
@@ -56,7 +56,7 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/zmraj/POWER-Filter-BOT.git
+git clone https://github.com/VashuRaj/AUTO-FILTER-BOTz.git
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
