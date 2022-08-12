@@ -27,19 +27,19 @@ filebuttons = [
                         InlineKeyboardButton('💢𝗧𝗩 𝗦𝗘𝗥𝗜𝗘𝗦💢', url='https://t.me/joinchat/Qea8OllY2QUzMDY1')
                     ],
                     [
-                       InlineKeyboardButton(" 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
+                       InlineKeyboardButton("⭕️ 𝗠𝗢𝗩𝗜𝗘𝗦 ⭕️ ", url="https://t.me/Latest_hindi_hd_Movies_Hub"),
+                        InlineKeyboardButton("Ⓜ️ 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 Ⓜ️ ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                        ],
                        [
-                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 ⭐️", url="https://t.me/joinchat/sA2FXY_bFTc3YmQ9")
+                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 1⭐️", url="https://t.me/joinchat/RSzvS3qax24wMmNl"),
+                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 2⭐️", url="https://t.me/joinchat/L_lCa57jPUBhNzU1")
                       ],[
-                        InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=http://t.me/PowerFilterRoBot')
+                        InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=https://t.me/Latest_hindi_hd_Movies_Hub')
+                    ],
+                    ]
                     
-                     ],[
-                    InlineKeyboardButton('🔎🔎 Search 🔎🔎', switch_inline_query_current_chat='')
-                      
-                    ]
-                    ]
-
+SPELL_CHECK = {}
+            
 @Client.on_message(filters.group & filters.text & filters.incoming)
 async def give_filter(client,message):
     group_id = message.chat.id
@@ -346,7 +346,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     caption=f_caption,
                     reply_markup=InlineKeyboardMarkup(filebuttons)
                     )
-                await query.answer(' ✅✅ 𝗖𝗵𝗲𝗰𝗸 📍 @PowerFilterRoBot 📍 𝗣𝗠, 𝗜 𝗵𝗮𝘃𝗲 𝘀𝗲𝗻𝘁 𝗳𝗶𝗹𝗲𝘀 𝘁𝗼 𝘆𝗼𝘂𝗿 📍  @PowerFilterRoBot 📍 𝗶𝗻 𝗽𝗺 ✅✅',show_alert = True)
+                await query.answer(' ✅✅ 𝗖𝗵𝗲𝗰𝗸 📍 BOT 📍 𝗣𝗠, 𝗜 𝗵𝗮𝘃𝗲 𝘀𝗲𝗻𝘁 𝗳𝗶𝗹𝗲𝘀 𝘁𝗼 𝘆𝗼𝘂𝗿 📍 BOT 📍 𝗶𝗻 𝗽𝗺 ✅✅',show_alert = True)
         except UserIsBlocked:
             await query.answer('Unblock the bot mahn !',show_alert = True)
         except PeerIdInvalid:
@@ -387,10 +387,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         InlineKeyboardButton('💢𝗧𝗩 𝗦𝗘𝗥𝗜𝗘𝗦💢', url='https://t.me/joinchat/Qea8OllY2QUzMDY1')
                     ],
                     [
-                       InlineKeyboardButton(" 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
+                       InlineKeyboardButton("⭕️ 𝗠𝗢𝗩𝗜𝗘𝗦 ⭕️ ", url="https://t.me/Latest_hindi_hd_Movies_Hub"),
+                        InlineKeyboardButton("Ⓜ️ 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 Ⓜ️ ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                        ],
                        [
-                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 ⭐️", url="https://t.me/joinchat/sA2FXY_bFTc3YmQ9")
+                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 1⭐️", url="https://t.me/joinchat/RSzvS3qax24wMmNl"),
+                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 2⭐️", url="https://t.me/joinchat/L_lCa57jPUBhNzU1")
                       ],[
                        
                     InlineKeyboardButton('🔎🔎 Search 🔎🔎', switch_inline_query_current_chat='')
@@ -400,7 +402,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ℹ️ Help ℹ️', callback_data='help')
             
            ],[
-            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=http://t.me/PowerFilterRoBot')
+            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=https://t.me/Latest_hindi_hd_Movies_Hub')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -410,14 +412,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "help":
         buttons = [[
-                        InlineKeyboardButton('🎬𝗠𝗢𝗩𝗜𝗘𝗦🎬', url='https://t.me/joinchat/vii7DDEvKCZkNDVl'),
+           InlineKeyboardButton('🎬𝗠𝗢𝗩𝗜𝗘𝗦🎬', url='https://t.me/joinchat/vii7DDEvKCZkNDVl'),
                         InlineKeyboardButton('💢𝗧𝗩 𝗦𝗘𝗥𝗜𝗘𝗦💢', url='https://t.me/joinchat/Qea8OllY2QUzMDY1')
                     ],
                     [
-                       InlineKeyboardButton(" 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
+                       InlineKeyboardButton("⭕️ 𝗠𝗢𝗩𝗜𝗘𝗦 ⭕️ ", url="https://t.me/Latest_hindi_hd_Movies_Hub"),
+                        InlineKeyboardButton("Ⓜ️ 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 Ⓜ️ ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                        ],
                        [
-                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 ⭐️", url="https://t.me/joinchat/sA2FXY_bFTc3YmQ9")
+                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 1⭐️", url="https://t.me/joinchat/RSzvS3qax24wMmNl"),
+                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 2⭐️", url="https://t.me/joinchat/L_lCa57jPUBhNzU1")
                       ],[
                         
                     InlineKeyboardButton('🔎🔎 Search 🔎🔎', switch_inline_query_current_chat='')
@@ -428,7 +432,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home 🏠', callback_data='start'),
             InlineKeyboardButton('🔮 Status 🔮', callback_data='stats')
             ],[
-            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=http://t.me/PowerFilterRoBot')
+            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=https://t.me/Latest_hindi_hd_Movies_Hub')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -444,7 +448,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🏠 Home🏠', callback_data='start'),
             InlineKeyboardButton('🔐 Close🔐 ', callback_data='close_data')
            ],[
-            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=http://t.me/PowerFilterRoBot')
+            InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=https://t.me/Latest_hindi_hd_Movies_Hub')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -586,17 +590,18 @@ async def auto_filter(client, message):
           reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔥 𝐍𝐄𝐖 𝐑𝐄𝐋𝐄𝐀𝐒𝐄𝐃 𝐌𝐎𝐕𝐈𝐄𝐒 🔥 ", url="https://t.me/joinchat/v3xsNd1es3ozMWJl")
+                        InlineKeyboardButton('🎬𝗠𝗢𝗩𝗜𝗘𝗦🎬', url='https://t.me/joinchat/vii7DDEvKCZkNDVl'),
+                        InlineKeyboardButton('💢𝗧𝗩 𝗦𝗘𝗥𝗜𝗘𝗦💢', url='https://t.me/joinchat/Qea8OllY2QUzMDY1')
                     ],
-                    [   InlineKeyboardButton('🎬🎬 𝗠𝗢𝗩𝗜𝗘𝗦 🎬🎬', url='https://t.me/joinchat/vii7DDEvKCZkNDVl'),
-                        InlineKeyboardButton('💢 𝗧𝗩 𝗦𝗘𝗥𝗜𝗘𝗦 💢', url='https://t.me/joinchat/Qea8OllY2QUzMDY1')    
+                    [
+                       InlineKeyboardButton("⭕️ 𝗠𝗢𝗩𝗜𝗘𝗦 ⭕️ ", url="https://t.me/Latest_hindi_hd_Movies_Hub"),
+                        InlineKeyboardButton("Ⓜ️ 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 Ⓜ️ ", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
                        ],
                        [
-                        InlineKeyboardButton("⭕️ 𝗠𝗢𝗩𝗜𝗘𝗦 𝗕𝗔𝗖𝗞𝗨𝗣 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 ⭕️", url="https://t.me/joinchat/fWTl8WXeWX5kN2Fl")
-                        ],[
-                        InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 ⭐️", url="https://t.me/joinchat/sA2FXY_bFTc3YmQ9")
+                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 1⭐️", url="https://t.me/joinchat/RSzvS3qax24wMmNl"),
+                       InlineKeyboardButton("⭐️ 𝐌𝐎𝐕𝐈𝐄𝐒 𝐆𝐑𝐎𝐔𝐏 2⭐️", url="https://t.me/joinchat/L_lCa57jPUBhNzU1")
                        ],[
-                        InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=http://t.me/PowerFilterRoBot')
+                        InlineKeyboardButton('🙋🙋 𝗜𝗡𝗩𝗜𝗧𝗘 𝗬𝗢𝗨𝗥 𝗙𝗥𝗜𝗘𝗡𝗗𝗦 🙋🙋', url='https://telegram.me/share/url?url=https://t.me/Latest_hindi_hd_Movies_Hub')
                        
                 ]
 
